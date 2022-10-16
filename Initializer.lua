@@ -8,7 +8,7 @@ local KickPlayer = function(msg)
 end
 
 if game.PlaceId == ids["NST"] then
-    local status, script = pcall(game.HttpGet, game, 'https://raw.githubusercontent.com/coroutineresumed/NerdHubInitializer/main/NST.Init')
+    local status, script = pcall(game.HttpGet, game, 'https://raw.githubusercontent.com/coroutineresumed/NerdHubInitializer/main/NST.lua')
     if status then
         loadstring(script)()
     else
