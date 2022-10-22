@@ -16,7 +16,7 @@ if game.PlaceId == ids["NST"] then
     else
         KickPlayer("failed to require loadstring | does your exploit support loadstring?")
     end
-elseif table.find(ids["Mortem Metallum"], game.PlaceId) then
+elseif table.find(ids["Mortem Metallum"], game.PlaceId) or game.PlaceId == ids["Mortem Metallum"].Alpha or game.PlaceId == ids["Mortem Metallum"].Beta then
     local status, script = pcall(game.HttpGet, game, 'https://raw.githubusercontent.com/coroutineresumed/NerdHubInitializer/main/Mortem_Metallum.lua')
     if status then
         loadstring(script)()
