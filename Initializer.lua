@@ -1,3 +1,5 @@
+getgenv().NERD_HUB_KEY = "850822fa87de351f1b06930c1b421cf1d29cce462605"
+
 local ids = {
     ["NST"] = 6008108575,
     ["Mortem Metallum"] = {Alpha = 4169490976, Beta = 8986335348},
@@ -38,7 +40,7 @@ if game.PlaceId == ids["NST"] then
 elseif game.PlaceId == ids["Mortem Metallum"].Alpha or game.PlaceId == ids["Mortem Metallum"].Beta then
     LoadScript("https://raw.githubusercontent.com/coroutineresumed/NerdHubInitializer/main/Mortem_Metallum.lua")
 elseif game.PlaceId == ids['Assassin'].Classic or game.PlaceId == ids['Assassin'].FreePlay or game.PlaceId == ids['Assassin'].Pro then
-    LoadScript("https://raw.githubusercontent.com/coroutineresumed/NerdHubInitializer/main/Assassin.lua")
+    LoadScript("https://raw.githubusercontent.com/coroutineresumed/NerdHubInitializer/main/Assassin")
 --elseif game.PlaceId == ids["Combat Warriors"] then
     --LoadScript("https://raw.githubusercontent.com/coroutineresumed/NerdHubInitializer/main/Combat_Warriors.lua")
 elseif game.PlaceId == ids["Murder Mystery 2"] then
