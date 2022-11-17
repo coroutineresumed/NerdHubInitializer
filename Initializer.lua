@@ -1,5 +1,3 @@
-getgenv().NERD_HUB_KEY = "850822fa87de351f1b06930c1b421cf1d29cce462605"
-
 local ids = {
     ["NST"] = 6008108575,
     ["Mortem Metallum"] = {Alpha = 4169490976, Beta = 8986335348},
